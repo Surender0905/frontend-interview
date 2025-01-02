@@ -1,0 +1,14 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50px, -50px);
+}
+
+@keyframes animation {
+    to {
+        transform: translate(-100px, -100px) scale(1);
+    }
+}
